@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .wrapper {
+    @apply bg-hero-sm md:bg-hero-mb bg-center bg-cover bg-no-repeat w-full h-screen absolute top-0 left-0;
+  }
+  .card {
+    @apply w-[300px] m-auto my-10 bg-white overflow-hidden rounded-2xl text-center shadow-lg shadow-gray-500;
+  }
+  .btn {
+    @apply w-full my-3 py-3 bg-blue-bright hover:bg-blue-dark rounded-lg text-white shadow-lg shadow-gray-500;
+  }
+}
